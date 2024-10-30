@@ -11,7 +11,7 @@ function cek ($buah, $data) {
         }
         }
     }
-$buah = readline("Masukkan nama buah :");
+$buah = readline("Input nama buah :");
 $stok = cek($buah, $data);
 if ($stok === true) {
     $jumlah = readline("Masukkan jumlah buah :");
